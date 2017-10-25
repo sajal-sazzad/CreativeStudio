@@ -82,6 +82,9 @@
     padding-left: 64px;
 }
 
+.menu_bar a:hover{    
+    color: #0F0F0F;    
+}
 
 
 .menu_bar a {
