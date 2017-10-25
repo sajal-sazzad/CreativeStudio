@@ -1,0 +1,417 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.about_us > span {
+    color: #fe9b00
+}
+
+.single_item > span {
+    font-family: arial;
+    color: #090909;
+    font-weight: bold;
+}
+
+.up_header {
+    width: 100%;
+    height: 17px;
+    background-color: #090909;
+}
+
+.wrapper {
+    width: 1263px;
+    margin: 0 auto;
+}
+
+.full_wrap {
+    margin: 0px 320px;
+}
+
+.header {
+    width: 100%;
+    min-height: 120px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: 1px solid #c0c0c0;
+    padding-top: 17px;
+
+}
+
+.logo {
+    width: 190px;
+    height: 120px;
+    float: left;
+}
+
+.logo img {
+    height: 120px;
+}
+
+.email_add {
+    float: right;
+    overflow: hidden;
+    width: 22%;
+    height: 20px;
+}
+
+.email_add p {
+    float: right;
+    text-decoration: none;
+    font-family: arial;
+    font-weight: normal;
+    color: #999898;
+    font-size: 13pt;
+}
+
+.menu_bar {
+    float: right;
+    width: 70%;
+    height: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.menu_bar ul {
+    float: right
+}
+
+.menu_bar li {
+    float: left;
+    list-style: none;
+    padding-left: 64px;
+}
+
+
+
+.menu_bar a {
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+    color: #fe9b00;
+    font-size: 12pt;
+
+}
+
+.menu_bar a:hover {}
+
+.slider {
+    width: 100%;
+    height: 410px;
+    background-image: url(../images/slide_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 18px;
+
+}
+
+.left_slider {
+    height: 300px;
+    width: 550px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 30px
+}
+
+.slider_info {
+    ;
+
+}
+
+.slider_info h1 {
+    font-family: nevis;
+    font-weight: bold;
+    color: #f4f4f4;
+    font-size: 65pt;
+    letter-spacing: 10px;
+}
+
+.slider_tab {
+    float: left;
+    width: 445px;
+    height: 46px;
+    background-color: #090909;
+
+
+}
+
+.slider_tab h4 {
+    float: left;
+    font-family: arial;
+    font-weight: bold;
+    color: #999898;
+    font-size: 14pt;
+    padding-top: 12px;
+    padding-left: 8px;
+
+}
+
+.slider_tab h3 {
+    float: right;
+    padding-top: 12px;
+    padding-right: 8px;
+}
+
+.slider_tab h3 a {
+    text-decoration: none;
+    color: #fe9b00;
+    font-family: arial;
+    font-weight: bold;
+    color: #fe9b00;
+    font-size: 12pt;
+}
+
+.right_slider {
+    float: right;
+    height: 100%;
+    width: 462px;
+}
+
+.slider_portfolio1 {
+    position: absolute;
+    bottom: 0px;
+    box-shadow: -10px 0px 15px #1D1F21;
+
+}
+
+.slider_portfolio1 img {
+    transform: scaleY();
+    float: right;
+}
+
+.slider_portfolio2 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 363px;
+    width: auto;
+    box-shadow: -10px 0px 15px #1D1F21;
+}
+
+.company_info {
+    overflow: hidden;
+    border-top: 1px solid #c0c0c0;
+    padding-top: 25px;
+    width: 100%;
+    min-height: 260px;
+    padding-bottom: 33px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.single_item {
+    width: 30%;
+    min-height: 214px;
+    float: left;
+    list-style: none;
+    padding-left: 55px;
+}
+
+.single_item a {
+    text-decoration: none;
+}
+
+.single_item:first-child {
+    padding-left: 0;
+}
+
+
+.single_item h1 {
+    border-bottom: 4px solid black;
+    padding-bottom: 12px;
+    font-family: arial;
+    font-weight: bold;
+    color: #090909;
+    font-size: 24pt;
+}
+
+.single_item p {
+    padding-top: 20px;
+    font-family: arial;
+    font-weight: normal;
+    color: #5d5d5d;
+    font-size: 12pt;
+    padding-bottom: 15px;
+
+}
+
+.benifits {
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.icon {
+    height: 16px;
+    width: 16px;
+    float: left;
+}
+
+.benifits_info {
+    width: 90%;
+    float: right;
+}
+
+.benifits_info p {
+    padding-top: 0px;
+}
+
+.portfolio {
+    overflow: hidden;
+    margin-top: 22px;
+    min-height: 210px;
+    ;
+    width: 100%;
+    position: relative;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.portfolio h1 {
+    padding-bottom: 20px;
+    font-family: arial;
+    font-weight: bold;
+    color: #090909;
+    font-size: 24pt;
+
+}
+
+.portfolio_last {
+    width: 286.66px;
+    height: 180px;
+    float: left;
+    padding-right: 38.7px;
+}
+
+.portfolio_last img {
+    height: 180px;
+    width: 286.66px;
+}
+
+.portfolio_last:last-child {
+    padding-right: 0px;
+}
+
+.portfolio_last p {
+    font-family: arial;
+    font-weight: normal;
+    color: #090909;
+    font-size: 10pt;
+}
+
+.view_button {
+    position: relative;
+    height: 22px;
+    width: 62px;
+    float: right;
+    background-color: #fe9b00;
+    padding-top: 7px;
+    top: -33px;
+}
+
+.view_button p {
+    font-family: arial;
+    font-weight: bold;
+    color: #090909;
+    font-size: 9pt;
+    float: right;
+    padding-right: 5px;
+
+}
+
+.contact_info {
+    overflow: hidden;
+    margin-top: 27px;
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 44px;
+}
+
+.contact_info h1 {
+    padding-bottom: 20px;
+    font-family: arial;
+    font-weight: bold;
+    color: #090909;
+    font-size: 15pt;
+}
+
+.blog_info {
+    width: 70%;
+    min-height: 90px;
+    float: left;
+}
+
+.blog_info p {
+    font-family: arial;
+    font-weight: normal;
+    color: #090909;
+    font-size: 12pt;
+
+}
+
+.connect_us {
+    width: 22%;
+    min-height: 90px;
+    float: right;
+}
+
+.connect_us img {
+    margin-right: 15px;
+}
+
+.footer {
+    overflow: hidden;
+    min-height: 70px;
+    background-color: #e2e2e2;
+    padding: 32px 320px;
+}
+
+.footer_menu {
+    width: 40%;
+    height: 33px;
+    float: left;
+    padding-top: 20px;
+}
+
+.footer_menu ul {
+    float: left;
+}
+
+.footer_menu li {
+    list-style: none;
+    float: left;
+    padding: 6px 10px;
+    border-left: 2px solid #5d5d5d;
+    font-family: arial;
+    font-weight: normal;
+    color: #5d5d5d;
+    font-size: 10pt;
+}
+
+
+.footer_menu a {
+    text-decoration: none;
+    color: #5d5d5d;
+}
+
+.footer_menu li:first-child {
+    border: none;
+    padding-left: 0px;
+}
+
+.footer p {
+    font-family: arial;
+    font-weight: normal;
+    color: #5d5d5d;
+    font-size: 10pt;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.images {
+    height: 100px;
+    width: 183px;
+    float: right;
+}
